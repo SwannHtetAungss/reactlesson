@@ -17,11 +17,12 @@ const Overlay = (props) => {
         <p>{props.message}</p>
       </div>
       <footer className={classes.actions}>
-        <Button onClick={props.onClick}>OK</Button>
+        <Button onclick={props.onClick}>OK</Button>
       </footer>
     </Card>
   );
 };
+
 const ErrorModel = (props) => {
   return (
     <React.Fragment>
